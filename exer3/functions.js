@@ -6,7 +6,11 @@
     Example: [1, 2, 3] -> [3, 2, 1]
 */
 function reverseArr(arr) {
-
+    ans = [];
+    for (let i = arr.length - 1; i >= 0; i--) {
+        ans.push(arr[i]);
+    }
+    return ans;
 }
 
 /*
@@ -14,7 +18,7 @@ function reverseArr(arr) {
     and returns the keys of the object in an array.
     DO NOT USE the Object.keys() METHOD!!
 
-    Example:
+    Example:s
     {
         name: "Casey",
         age: 10,              
@@ -25,7 +29,11 @@ function reverseArr(arr) {
     ["name", "age", "breed", "friendly"]
 */
 function objectKeysToArr(object) {
-
+    ans = [];
+    for (key in object) {
+        ans.push(key);
+    }
+    return ans;
 }
 
 /*
@@ -52,7 +60,11 @@ function objectKeysToArr(object) {
     }
 */
 function combineObjects(object1, object2) {
-
+    ans = {
+        ...object1,
+        ...object2,
+    }
+    return ans;
 }
 
 
