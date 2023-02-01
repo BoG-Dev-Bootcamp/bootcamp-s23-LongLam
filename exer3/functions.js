@@ -18,7 +18,7 @@ function reverseArr(arr) {
     and returns the keys of the object in an array.
     DO NOT USE the Object.keys() METHOD!!
 
-    Example:s
+    Example:
     {
         name: "Casey",
         age: 10,              
