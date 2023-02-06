@@ -1,0 +1,15 @@
+{
+  "name": "npm_demo",
+  "version": "1.0.0",
+  "description": "Quick npm project demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Long Lam",
+  "license": "ISC",
+  "dependencies": {
+    "figlet": "^1.5.2"
+  },
+  "type":"module"
+}
